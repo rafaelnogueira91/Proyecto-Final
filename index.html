@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Configuración básica -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Importadora RKS ofrece repuestos y accesorios para motos en Chile">
+  <meta name="keywords" content="repuestos moto, accesorios moto, manillas moto, guardabarros moto">
+  <meta name="author" content="Importadora RKS">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png">
+
+  <!-- Título de la página -->
+  <title>Importadora RKS | Inicio</title>
+
+  <!-- Bootstrap SOLO para menú hamburguesa -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Link de mi CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+
+    <!-- Menú de navegación (Navbar Bootstrap) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu-rks">
+
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="Logo de Importadora RKS" class="logo-rks">
+        </a>
+
+        <!-- Botón hamburguesa -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal"
+          aria-expanded="false"
+          aria-label="Abrir menú de navegación">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Opciones del menú -->
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pages/productos.html">Productos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contactos.html">Contactos</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================= CONTENIDO PRINCIPAL ================= -->
+  <main>
+
+    <!-- Sección principal (Hero) -->
+    <section class="hero-index">
+
+      <div class="textos-index">
+        <h1>Potencia y calidad sobre ruedas</h1>
+
+        <p>
+          Encuentra repuestos y accesorios para tu moto con el mejor diseño y calidad.
+        </p>
+
+        <a href="pages/productos.html" class="btn-principal">
+          Ver productos
+        </a>
+      </div>
+
+    </section>
+
+    <!-- Sección de categorías -->
+    <section class="categorias-destacadas">
+
+      <h2>Categorías destacadas</h2>
+
+      <!-- Lista de categorías -->
+      <div class="lista-index">
+
+        <!-- Card de categoría -->
+        <article class="item-index">
+          <a href="pages/productos.html">
+
+            <img src="img/manillas.png" alt="Manillas para motocicleta">
+
+            <h3>Manillas</h3>
+
+            <p>Mejor agarre y diseño deportivo</p>
+
+          </a>
+        </article>
+
+        <!-- Card de categoría -->
+        <article class="item-index">
+          <a href="pages/productos.html">
+
+            <img src="img/guardabarros-trasero.png" alt="Guardabarros trasero">
+
+            <h3>Guardabarros</h3>
+
+            <p>Protección y estilo</p>
+
+          </a>
+        </article>
+
+        <!-- Card de categoría -->
+        <article class="item-index">
+          <a href="pages/productos.html">
+
+            <img src="img/protector-de-estanque.png" alt="Protector de estanque">
+
+            <h3>Protectores</h3>
+
+            <p>Cuida tu moto</p>
+
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2026 Importadora RKS - Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Script de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* Responsive Desktop */
+@media (min-width: 1200px) {
+  .lista-index,
+  .lista-productos {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  main {
+    max-width: 1200px;
+  }
+}
+
+/* Responsive tablet */
+@media (max-width: 900px) {
+  .lista-index,
+  .lista-productos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Responsive mobile */
+@media (max-width: 576px) {
+  .lista-index,
+  .lista-productos {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-rks {
+    padding: 10px 12px;
+  }
+
+  .textos-index h1,
+  .productos h1,
+  .contacto-info h1 {
+    font-size: 2rem;
+  }
+
+  .producto h2 {
+    font-size: 1.2rem;
+  }
+}

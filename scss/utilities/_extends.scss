@@ -1,0 +1,11 @@
+/* Títulos de sección */
+%titulo-seccion {
+  text-align: center;
+  color: $color-claro;
+}
+
+/* Enlaces sin estilo */
+%enlace-limpio {
+  text-decoration: none;
+  color: inherit;
+}

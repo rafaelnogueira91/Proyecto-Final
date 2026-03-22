@@ -1,0 +1,82 @@
+/* Contenedor principal de contactos */
+.contactos-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 18px 40px;
+}
+
+/* Información de contacto */
+.contacto-info {
+  text-align: center;
+  margin-bottom: 30px;
+
+  h1 {
+    margin-bottom: 12px;
+  }
+
+  .texto-contacto {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    color: $color-texto-suave;
+  }
+}
+
+.datos-contacto {
+  p {
+    margin: 8px 0;
+    font-size: 1.05rem;
+  }
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+  @include card-base;
+  padding: 22px;
+  margin-bottom: 30px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  form {
+
+    .campo {
+      margin-bottom: 16px;
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 700;
+      }
+
+      input,
+      textarea {
+        @include input-base;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+    }
+
+    button {
+      @include boton-base;
+      background: $color-principal;
+      color: $color-oscuro;
+
+      &:hover {
+        background: $color-principal-hover;
+      }
+    }
+  }
+}
+
+/* Imagen decorativa */
+.imagen-contacto {
+  img {
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+  }
+}

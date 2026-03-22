@@ -1,0 +1,36 @@
+/* Centrar con flexbox */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Base de card */
+@mixin card-base {
+  background: $color-superficie;
+  border-radius: $radio;
+  box-shadow: $sombra;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+/* Botón base */
+@mixin boton-base {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color .2s ease, transform .2s ease;
+}
+
+/* Inputs y textarea */
+@mixin input-base {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: #1c1c1c;
+  color: $color-claro;
+  font-size: 1rem;
+}
